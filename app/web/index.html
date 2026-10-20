@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paedagogium</title>
+<link rel="icon" type="image/svg+xml" href="/logo/favicon.svg">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<script>/* 테마는 그리기 전에 (깜빡임 없게) */ try { var t = localStorage.getItem("p_theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) {}</script>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<header id="top">
+  <a class="brand" href="#home" title="Paedagogium — 라틴어로 ‘가르치는 사람을 기르는 곳’"><img src="/logo/mark.svg" alt=""><b>PAEDAGOGIUM</b><small>정보·컴퓨터 임용 서재</small></a>
+  <div id="topright">
+    <span id="topstate"></span>
+    <span id="topdday"></span>
+    <a class="act" href="#data" title="기록·설정">⚙ 설정</a>
+  </div>
+</header>
+<div id="shell">
+  <nav id="side" aria-label="목차"></nav>
+  <main id="main">
+    <div class="view" id="v-home" hidden></div>
+    <div class="view" id="v-notices" hidden></div>
+    <div class="view wide" id="v-jobs" hidden></div>
+    <div class="view" id="v-guide" hidden></div>
+    <div class="view" id="v-standard" hidden></div>
+    <div class="view" id="v-curriculum" hidden></div>
+    <div class="view" id="v-exams" hidden></div>
+    <div class="view" id="v-pedagogy" hidden></div>
+    <div class="view" id="v-notes" hidden></div>
+    <div class="view wide" id="v-ask" hidden></div>
+    <div class="view" id="v-help" hidden></div>
+    <div class="view" id="v-data" hidden></div>
+  </main>
+</div>
+<div id="toast"></div>
+<script src="/content/content_exam.js"></script>
+<script src="/content/content_guide.js"></script>
+<script src="/content/content_sprint.js"></script>
+<script src="/content/content_standard.js"></script>
+<script src="/content/content_curriculum.js"></script>
+<script src="/content/content_exams.js"></script>
+<script src="/content/content_pedagogy_practice.js"></script>
+<script src="/content/content_pedagogy.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

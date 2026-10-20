@@ -1,0 +1,9 @@
+# 내 기록·수집한 공지·설정·서버 기록 — 개인 데이터
+data/
+
+# claude.ai 판에서 받아 둔 원본 (내용은 app/web/content 에 옮겨 둠)
+_origin/
+
+__pycache__/
+*.pyc
+*.tmp
