@@ -9,7 +9,7 @@ claude.ai 판(https://claude.ai/artifact/8qS9SBAPKHKTH19D9SgAiR, 2026-10-19)을 
 ## 1. 구조
 
 ```
-Paedagogium\                 저장소 루트 (로컬 git, 원격 없음)
+Paedagogium\                 저장소 루트 (github.com/hiyunsang/Paedagogium, 공개)
   app\                       프로그램
     server.py                표준 라이브러리 ThreadingHTTPServer (127.0.0.1:8772). 라우트·내 기록·설정·Claude 작업·수집 스케줄
     claude_cli.py            `claude -p` 부르기 (창 없이 · 빈 작업 폴더 %TEMP%\paedagogium_claude · CLAUDE_CONFIG_DIR · stream-json · 취소)
@@ -71,4 +71,4 @@ POST `/api/store {op: put|del|import}` `/api/settings` `/api/claude {task: ask|g
 - 상태 클래스 이름은 ui.css 공용 이름(act·sel·chip·on)과 겹치지 않게
 
 ## 5. 커밋
-기능 단위로 커밋(원격 없음 — 커밋만). 메시지는 한국어로 무엇을 왜. data\·_origin\ 은 올리지 않는다.
+기능 단위로 커밋하고 `git push origin main`. 메시지는 한국어로 무엇을 왜. 저장소는 **공개**다 — data\(내 기록·공지·설정)·_origin\ 은 절대 올리지 않는다(.gitignore 확인).
